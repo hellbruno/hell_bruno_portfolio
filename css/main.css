@@ -1,0 +1,74 @@
+body{background-color: #00ccff;
+font-size:105%;
+	font-family: 'American Typewriter',sans-serif;
+
+}
+/*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	}	*/
+.oldal {
+	background-color:white ;
+	color: white;
+	border: 3px ;
+	display:inline-block;
+	padding: 0.5rem 1rem;
+	margin: 0.2rem;
+	transition: 0.3s;
+	user-select: none;
+	text-decoration: none;
+	min-width: max-content;
+	border-radius: 2rem;
+
+}
+.header
+{border:solid black 2px;
+
+}
+.keprajz{
+max-width:40rem; 
+}
+.kep1{
+	max-width: 30rem;
+}
+.kep2{
+	max-width: 14rem;
+}
+.kep3{
+	max-width: 14rem;
+}
+.kep4{
+	max-width: 20rem;
+	float: left;
+	margin-bottom: 5px;
+}
+.kep5{
+	max-width: 20rem;
+	float: left;
+	height: 22rem;
+	margin-left: 2px;
+}
+a{
+	text-decoration: none;
+}
+main.center{
+	display: grid;
+	grid-template-rows:minmax(1rem,1fr)max-content minmax(1rem,1fr);
+	grid-template-columns: minmax(1rem,1fr)minmax(288px,584px)minmax(1rem,1fr);
+}
+
+
+.cím{
+	font-size: 250%;
+	padding-top: 1vh;
+	padding-bottom: 6vh;
+	margin-left: 7vw;
+	margin-top: 35vh;
+	grid-row: 2/3;
+	grid-column: 2/3;
+	font-family: 'American Typewriter',sans-serif;
+	/*
+	background-color:red;
+	line-height: 80%*/
+	}
